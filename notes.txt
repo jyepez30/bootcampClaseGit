@@ -1,5 +1,5 @@
 git log
-git commit "el mensaje"
+git commit -m "el mensaje"
 git branch
 git status
 git add [nombre del archivo]
