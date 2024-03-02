@@ -1,0 +1,7 @@
+git log
+git commit "el mensaje"
+git branch
+git status
+git add [nombre del archivo]
+git add .
+git add *
