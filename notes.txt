@@ -116,3 +116,36 @@ Switched to a new branch 'mensaje'
 
 Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (mensaje)
 $
+Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (mensaje)
+$ git status
+On branch mensaje
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   notes.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (mensaje)
+$ git add .
+
+Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (mensaje)
+$ git commit -m "cidificación nueva en notes.html"
+[mensaje f05ae2b] cidificación nueva en notes.html
+ 1 file changed, 7 insertions(+)
+
+Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (mensaje)
+$ git checkout master
+Switched to branch 'master'
+
+Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (master)
+$ git merge mensaje
+Updating ae96705..f05ae2b
+Fast-forward
+ notes.txt | 53 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 53 insertions(+)
+
+Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (master)
+$
+
+
