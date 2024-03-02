@@ -60,6 +60,52 @@ E:\RepositoryGit\CursoViamatica>git commit -m "Comandos Git mas Usados"
 
 **************************************************************************
 
+****************** git restore index.css ****************************
+E:\RepositoryGit\CursoViamatica>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+E:\RepositoryGit\CursoViamatica>git restore index.css
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 *******como hacer un reverso**********
 si el commit esta recien usar el comando de la siguiente linea
 :wq!
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+
+git branch [name new branch]
+git branch mejora 
+
+
+E:\RepositoryGit\CursoViamatica>git branch
+* master
+
+E:\RepositoryGit\CursoViamatica>git branch mejora
+
+E:\RepositoryGit\CursoViamatica> git branch
+* master
+  mejora
+
+E:\RepositoryGit\CursoViamatica>git checkout mejora
+Switched to branch 'mejora'
+
+E:\RepositoryGit\CursoViamatica>git branch
+  master
+* mejora
+
+
+*************trababajndo con git Bash************************
+Jyepez@DESKTOP-U4I712N MINGW64 ~
+$ cd /e/RepositoryGit/CursoViamatica
+
+Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (mejora)
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
