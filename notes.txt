@@ -1,7 +1,66 @@
-git log
-git commit -m "el mensaje"
-git branch
+git log veo de manera global
+git log --oneline
 git status
-git add [nombre del archivo]
-git add .
-git add *
+git commit -m "el mensaje"
+
+git branch
+
+git add [nombre del archivo] 
+git add .  agrega el directorio donde hubo el cambio
+git add * agrega todos directorios incluso donde no hubo cambios
+
+**************************************************************************
+                      EJEMPLOS DE LOS COMANDOS 
+**************************************************************************
+
+******************** git log veo de manera global ************************
+E:\RepositoryGit\CursoViamatica>git log
+commit e8ca76193f09b9a5b86d7913d925be783b317272 (HEAD -> master)
+Author: jyepez30 <joseyepez.ec@gmail.com>
+Date:   Sat Mar 2 14:27:05 2024 -0500
+
+    agregando un nuevo comando de git
+
+commit 81934917e3e9250ad83d75ff04d3da5af15a9696
+Author: jyepez30 <joseyepez.ec@gmail.com>
+Date:   Sat Mar 2 14:22:21 2024 -0500
+
+    Comandos Git mas Usados
+
+git log --oneline muestra en una linea la informaciòn de cada cambio
+E:\RepositoryGit\CursoViamatica>git log --oneline
+e8ca761 (HEAD -> master) agregando un nuevo comando de git
+8193491 Comandos Git mas Usados
+**************************************************************************
+
+************** git log --oneline Muestra en una linea ********************
+E:\RepositoryGit\CursoViamatica>git log --oneline
+e8ca761 (HEAD -> master) agregando un nuevo comando de git
+8193491 Comandos Git mas Usados
+**************************************************************************
+
+************************** git status ************************************
+
+E:\RepositoryGit\CursoViamatica>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   notes.txt
+**************************************************************************
+
+****************** git commit -m "el mensaje" ****************************
+
+E:\RepositoryGit\CursoViamatica>git commit -m "Comandos Git mas Usados"
+[master (root-commit) 8193491] Comandos Git mas Usados
+ 1 file changed, 7 insertions(+)
+ create mode 100644 notes.txt
+
+**************************************************************************
+
+
+*******como hacer un reverso**********
+si el commit esta recien usar el comando de la siguiente linea
+:wq!
