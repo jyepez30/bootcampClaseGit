@@ -109,3 +109,10 @@ $ cd /e/RepositoryGit/CursoViamatica
 
 Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (mejora)
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (mejora)
+$ git checkout -b mensaje */ crea un nuevo brazo
+Switched to a new branch 'mensaje'
+
+Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (mensaje)
+$
