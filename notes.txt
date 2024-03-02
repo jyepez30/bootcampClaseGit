@@ -116,3 +116,87 @@ Switched to a new branch 'mensaje'
 
 Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (mensaje)
 $
+Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (mensaje)
+$ git status
+On branch mensaje
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   notes.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (mensaje)
+$ git add .
+
+Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (mensaje)
+$ git commit -m "cidificación nueva en notes.html"
+[mensaje f05ae2b] cidificación nueva en notes.html
+ 1 file changed, 7 insertions(+)
+
+Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (mensaje)
+$ git checkout master
+Switched to branch 'master'
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+*********SE AGREGO A MASTER TODOS LOS CAMBIOS REALIZADOS EN MENSAJE***********************
+Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (master)
+$ git merge mensaje
+Updating ae96705..f05ae2b
+Fast-forward
+ notes.txt | 53 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 53 insertions(+)
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (master)
+$ git log
+commit f05ae2bbee853b262a5e382a9fa2ff2dcd1ccaab (HEAD -> master, mensaje)
+Author: jyepez30 <joseyepez.ec@gmail.com>
+Date:   Sat Mar 2 16:36:13 2024 -0500
+
+    cidificación nueva en notes.html
+
+commit f5da2ecc446ff670f65fa0b63b734439c8d43ca0 (mejora)
+Author: jyepez30 <joseyepez.ec@gmail.com>
+Date:   Sat Mar 2 16:27:20 2024 -0500
+
+    cambios enviados a Producción
+
+commit ae967058e512e8c51a529b71a11a13104981c81b
+Author: jyepez30 <joseyepez.ec@gmail.com>
+Date:   Sat Mar 2 16:15:58 2024 -0500
+
+    cambios a producción
+
+commit c68d44199089733b1b0ebd54f061bc2b69ebf9d3
+Author: jyepez30 <joseyepez.ec@gmail.com>
+Date:   Sat Mar 2 15:05:24 2024 -0500
+
+    cambios css
+
+commit 6e9bc8ee5dde9d7ee3aeb8fa1b55409edf14cd4c
+Author: jyepez30 <joseyepez.ec@gmail.com>
+Date:   Sat Mar 2 15:02:01 2024 -0500
+
+    se agrega ejemplos de los comandos
+
+commit e8ca76193f09b9a5b86d7913d925be783b317272
+Author: jyepez30 <joseyepez.ec@gmail.com>
+Date:   Sat Mar 2 14:27:05 2024 -0500
+
+    agregando un nuevo comando de git
+
+commit 81934917e3e9250ad83d75ff04d3da5af15a9696
+Author: jyepez30 <joseyepez.ec@gmail.com>
+Date:   Sat Mar 2 14:22:21 2024 -0500
+
+    Comandos Git mas Usados
+
+Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (master)
+$
+
+
+
