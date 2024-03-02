@@ -60,7 +60,6 @@ E:\RepositoryGit\CursoViamatica>git commit -m "Comandos Git mas Usados"
 
 **************************************************************************
 
-
 *******como hacer un reverso**********
 si el commit esta recien usar el comando de la siguiente linea
 :wq!
