@@ -209,3 +209,75 @@ $
 =======
 
 >>>>>>> mensaje
+
+**************subo a la nube de git ********************************
+usando el comando: git push -u origin master
+
+Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 320 bytes | 320.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/jyepez30/bootcampClaseGit.git
+   cec3584..88eaeb4  master -> master
+branch 'master' set up to track 'origin/master'.
+
+**************Creando otra Rama git ********************************
+usando el comando: git checkout -b Rama2
+
+Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (master)
+$ git checkout -b Rama2
+Switched to a new branch 'Rama2'
+
+Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (Rama2)
+$ git add .
+
+Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (Rama2)
+$ git commit -m "cambios Nueva funcionalidad"
+[Rama2 58cc2c2] cambios Nueva funcionalidad
+ 1 file changed, 4 insertions(+)
+
+************** Se sube a la nube la otra Rama git ********************************
+
+
+Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (Rama2)
+$ git push -u origin Rama2
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 418 bytes | 418.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'Rama2' on GitHub by visiting:
+remote:      https://github.com/jyepez30/bootcampClaseGit/pull/new/Rama2
+remote:
+To https://github.com/jyepez30/bootcampClaseGit.git
+ * [new branch]      Rama2 -> Rama2
+branch 'Rama2' set up to track 'origin/Rama2'.
+
+Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (Rama2)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (master)
+$ git pull origin master
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (1/1), 900 bytes | 21.00 KiB/s, done.
+From https://github.com/jyepez30/bootcampClaseGit
+ * branch            master     -> FETCH_HEAD
+   88eaeb4..1695726  master     -> origin/master
+Updating 88eaeb4..1695726
+Fast-forward
+ index.html | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+Jyepez@DESKTOP-U4I712N MINGW64 /e/RepositoryGit/CursoViamatica (master)
+$
